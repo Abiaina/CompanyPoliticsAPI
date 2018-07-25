@@ -6,11 +6,13 @@ class CompanyController < ApplicationController
 
 
   def company_details
-    company = Company.find_by(name: params[:company.upcase])
+    company = Company.fuzzy_search(name: params[:company.upcase])
 
-    if !company
-      company = Subsidiary.find_by(name: params[:company].upcase)&.company
-
+    if company == []
+      company = Subsidiary.fuzzy_search(name: params[:company].upcase)
+      company == [] ? company = nil : company = company[0].company
+    else
+      company = company[0]
     end
 
     if company
