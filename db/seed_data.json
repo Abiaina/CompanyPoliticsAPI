@@ -729,5 +729,303 @@
     ],
     "total_contribution_dollars": "337504",
     "total_lobby_dollars": "300000"
+},
+{
+    "most_lobbied_bill": " S.58 Middle Class Health Benefits Tax Repeal Act of 2017",
+    "mlb_description": "This bill amends the Internal Revenue Code to repeal, beginning with taxable years beginning after December 31, 2017, the excise tax on employer-sponsored health care coverage for which there is an excess benefit (high-cost plans).",
+    "name": "KellogCo",
+    "os_id": "D000026978",
+    "recipients": [
+      "Franklin, George",
+      "Casey, Bob",
+      "Great Lakes PAC",
+      "Stabenow, Debbie",
+      "Yoder, Kevin",
+      "Walberg, Tim",
+      "Upton, Fred",
+      "Motor City PAC",
+      "Smucker, Lloyd",
+      "Tiberi, Pat"],
+    "share_holder_politicians": ["LoBiondo, Frank (R-NJ)", "Capito, Shelley Moore (R-WV)"],
+    "subsidiaries": [
+        "Kellogg’s",
+        "Keebler",
+        "Cheez-It",
+        "Pringles",
+        "Murray",
+        "Austin",
+        "Famous Amos",
+        "Parati",
+        "RXBAR",
+        "Kashi",
+        "Bear Naked",
+        "Morningstar Farms",
+        "Eggo"
+    ],
+    "total_contribution_dollars": "111726",
+    "total_lobby_dollars": "240000"
+},
+{
+    "most_lobbied_bill": "S.842 Fair Chance to Compete for Jobs Act of 2017",
+    "mlb_description": "A bill to prohibit Federal agencies and Federal contractors from requesting that an applicant for employment disclose criminal history record information before the applicant has received a conditional offer, and for other purposes.",
+    "name": "Unilever",
+    "os_id": "D000030608",
+    "recipients": [
+        "Greimel, Tim",
+        "Goodrich, Grant",
+        "Baldwin, Tammy",
+        "DiNicola, Ron",
+        "Fulford, Jonathan",
+        "Klobuchar, Amy",
+        "Ryan, Pat",
+        "Jones, Doug",
+        "Roskam, Peter",
+        "Sherman, Brad"
+    ],
+    "share_holder_politicians": [
+        "Black, Diane (R-TN)",
+        "Collins, Susan M (R-ME)",
+        "Dingell, Debbie (D-MI)"
+    ],
+    "subsidiaries": [
+        "Ben & Jerry's",
+        "Talenti Gelato"
+    ],
+    "total_contribution_dollars": "28046",
+    "total_lobby_dollars": "250000"
+},
+{
+    "most_lobbied_bill": "H.R.1267 PHIT Act.",
+    "mlb_description": "To amend the Internal Revenue Code of 1986 to treat certain amounts paid for physical activity, fitness, and exercise as amounts paid for medical care.",
+    "name": "Nike",
+    "os_id": "D000027998",
+    "recipients": [
+        "National Republican Congressional Cmte",
+        "National Republican Senatorial Cmte",
+        "Democratic Congressional Campaign Cmte",
+        "Bonamici, Suzanne",
+        "Hatch, Orrin G",
+        "Schrader, Kurt",
+        "Ryan, Paul",
+        "Walden, Greg",
+        "Blumenauer, Earl",
+        "Sewell, Terri A"
+    ],
+    "share_holder_politicians": [
+        "Capito, Shelley Moore (R-WV)",
+        "Carper, Tom (D-DE)",
+        "Conaway, Mike (R-TX)",
+        "Curbelo, Carlos (R-FL)",
+        "Dingell, Debbie (D-MI)",
+        "Grijalva, Raul M (D-AZ)"
+    ],
+    "subsidiaries": [
+        "Converse Inc"
+    ],
+    "total_contribution_dollars": "434161",
+    "total_lobby_dollars": "300000"
+},
+{
+    "most_lobbied_bill": "",
+    "name": "Colgate",
+    "os_id": "D000049484",
+    "recipients": [
+        "Democratic Congressional Campaign Cmte",
+        "Delgado, Antonio",
+        "Brindisi, Anthony",
+        "Jones, Doug",
+        "DNC Services Corp",
+        "Ossoff, Jon",
+        "Epstein, Dan",
+        "Boyajian, Don",
+        "Balter, Dana",
+        "Powell, Jon"
+    ],
+    "share_holder_politicians": [],
+    "subsidiaries": [],
+    "total_contribution_dollars": "16084",
+    "total_lobby_dollars": "0"
+},
+{
+    "most_lobbied_bill": "H.R.2430 Prescription Drug User Fee Amendments of 2017",
+    "mlb_description": "The FDA Reauthorization Act of 2017 aims to lower prescription drug prices, amid skyrocketing health insurance costs.",
+    "name": "Johnson & Johnson",
+    "os_id": "D000000386",
+    "recipients": [
+        "National Republican Congressional Cmte",
+        "Democratic Congressional Campaign Cmte",
+        "Democratic Senatorial Campaign Cmte",
+        "National Republican Senatorial Cmte",
+        "Ryan, Paul",
+        "Tenn PAC",
+        "Prosperity Action",
+        "Casey, Bob",
+        "Lujan, Ben R",
+        "MacArthur, Thomas",
+        "Majority Cmte PAC",
+        "McCarthy, Kevin",
+        "Scalise, Steve",
+        "Walden, Greg",
+        "Walorski, Jackie",
+        "Wenstrup, Brad"
+    ],
+    "share_holder_politicians": [
+        "Capito, Shelley Moore (R-WV)",
+        "Carper, Tom (D-DE)",
+        "Collins, Susan M (R-ME)",
+        "Conaway, Mike (R-TX)",
+        "Dingell, Debbie (D-MI)",
+        "Doggett, Lloyd (D-TX)",
+        "Duckworth, Tammy (D-IL)",
+        "Dunn, Neal (R-FL)",
+        "Foxx, Virginia (R-NC)",
+        "Frankel, Lois J (D-FL)",
+        "Frelinghuysen, Rodney (R-NJ)",
+        "Gibbs, Bob (R-OH)"
+    ],
+    "subsidiaries": [
+        "Abbott Medical Optics",
+        "Actelion Ltd",
+        "BabyCenter LLC",
+        "Centocor Inc",
+        "Ethicon Inc"
+    ],
+    "total_contribution_dollars": "828662",
+    "total_lobby_dollars": "1400000"
+},
+{
+    "most_lobbied_bill": "",
+    "name": "Campbell",
+    "os_id": "D000069727",
+    "recipients": [
+        "Lewis, John",
+        "Democratic Attorneys General Assn",
+        "McCaskill, Claire",
+        "Democratic Party of Virginia"
+    ],
+    "share_holder_politicians": [],
+    "subsidiaries": [],
+    "total_contribution_dollars": "98",
+    "total_lobby_dollars": "0"
+},
+{
+    "most_lobbied_bill": "",
+    "name": "Clorox",
+    "os_id": "D000024879",
+    "recipients": [
+        "Sanford, Mark",
+        "Garamendi, John",
+        "Swalwell, Eric",
+        "Amodei, Mark",
+        "Bilirakis, Gus",
+        "Blunt, Roy",
+        "Burr, Richard",
+        "Butterfield, G K",
+        "Cardin, Ben",
+        "Comer, James",
+        "Esty, Elizabeth",
+        "Foster, Bill",
+        "Goodlatte, Bob",
+        "Green, Gene",
+        "Isakson, Johnny",
+        "Kaine, Tim",
+        "Lee, Barbara",
+        "Luetkemeyer, Blaine",
+        "McCaskill, Claire",
+        "McKinley, David",
+        "Murphy, Christopher S",
+        "Nelson, Bill",
+        "Rogers, Hal",
+        "Rutherford, John",
+        "Schneider, Brad",
+        "Scott, David",
+        "Wicker, Roger",
+        "Womack, Steve",
+        "Yoder, Kevin"
+    ],
+    "share_holder_politicians": [
+        "Capito, Shelley Moore (R-WV)",
+        "Frankel, Lois J (D-FL)",
+        "LoBiondo, Frank (R-NJ)"
+    ],
+    "subsidiaries": [],
+    "total_contribution_dollars": "69161",
+    "total_lobby_dollars": "0"
+},
+{
+    "most_lobbied_bill": "",
+    "name": "McCormick",
+    "os_id": "D000070780",
+    "recipients": [
+        "Reinventing a New Direction",
+        "Ruppersberger, Dutch",
+        "Democratic State Central Cmte/Maryland",
+        "Flores, Sol",
+        "McCaskill, Claire",
+        "Fisher, Will",
+        "AmeriPAC: The Fund for a Greater America",
+        "Hoyer, Steny H",
+        "Kaine, Tim",
+        "DNC Services Corp"
+    ],
+    "share_holder_politicians": [],
+    "subsidiaries": [],
+    "total_contribution_dollars": "9490",
+    "total_lobby_dollars": "0"
+},
+{
+    "most_lobbied_bill": "",
+    "name": "Nintendo",
+    "os_id": "D000042273",
+    "recipients": [
+        "Brown, Lisa",
+        "Crow, Jason",
+        "Lamb, Conor",
+        "Rossi, Dino",
+        "Jones, Doug",
+        "Democratic Congressional Campaign Cmte",
+        "Bryce, Randy",
+        "Warren, Elizabeth",
+        "Wadkins, Randy"
+    ],
+    "share_holder_politicians": [],
+    "subsidiaries": [
+        "Nintendo of America"
+    ],
+    "total_contribution_dollars": "948",
+    "total_lobby_dollars": "0"
+},
+{
+    "most_lobbied_bill": "H.R.1628 American Health Care Act of 2017",
+    "mlb_description": "The American Health Care Act of 2017 (AHCA) was a leading proposal in the first half of 2017 by House Republicans to repeal and replace the Affordable Care Act (aka Obamacare, but we'll abbreviate it ACA) and defund Planned Parenthood. It was also the vehicle for passage of the Senate Republicans' leading proposals.",
+    "name": "Bayer",
+    "os_id": "D000042363",
+    "recipients": [
+        "McCaskill, Claire",
+        "Blunt, Roy",
+        "Wagner, Ann L",
+        "Stabenow, Debbie",
+        "AG America",
+        "Ryan, Paul",
+        "McCarthy, Kevin",
+        "Conaway, Mike",
+        "Walden, Greg",
+        "Davis, Rodney",
+        "Hoyer, Steny H",
+        "Peterson, Collin"
+    ],
+    "share_holder_politicians": [
+        "Westerman, Bruce (R-AR)"
+    ],
+    "subsidiaries": [
+        "Bayer Corp",
+        "Bayer CropScience",
+        "Bayer Healthcare",
+        "Covestro AG",
+        "Covestro LLC",
+        "Monsanto Co"
+    ],
+    "total_contribution_dollars": "890444",
+    "total_lobby_dollars": "3930000"
 }
 ]
