@@ -50,16 +50,20 @@ class CompanyController < ApplicationController
   end
 
   def process_upc
-    base = "https://eandata.com/feed/?v=3&keycode="
+    base1 = "https://eandata.com/feed/?v=3&keycode="
+    base2 = "https://api.upcitemdb.com/prod/trial/lookup?upc="
+    data = nil
 
-    response = HTTParty.get(base + ENV["UPC_API_KEY"] + "&mode=json&find=" + params[:upc])
-    if response["company"]["name"]
+    response = HTTParty.get(base1 + ENV["UPC_API_KEY"] + "&mode=json&find=" + params[:upc])
+    if response["company"].nil?
+      response = HTTParty.get(base2 + params[:upc])
+      data = [response["items"][0]["brand"], response["items"][0]["images"]]
+    else
       data = [
         response["company"]["name"], response["product"]["image"]
       ]
-      return data
     end
-    return nil
+    return data
   end
 
 end
