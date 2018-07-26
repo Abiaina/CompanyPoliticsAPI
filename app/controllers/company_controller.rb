@@ -7,10 +7,15 @@ class CompanyController < ApplicationController
 # use '%20' for spaces
   def company_details
     upc_data = process_upc()
-    company_name = upc_data[0]
-    product_img_url = upc_data[1]
+    if upc_data
+      company_name = upc_data[0]
+      product_img_url = upc_data[1]
 
-    company = Company.fuzzy_search(company_name)
+      company = Company.fuzzy_search(company_name)
+    else
+      company = nil
+    end
+
     if company == []
       company = Subsidiary.fuzzy_search(company)
       company == [] ? company = nil : company = company[0].company
