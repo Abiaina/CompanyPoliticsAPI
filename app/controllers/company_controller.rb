@@ -1,15 +1,18 @@
 class CompanyController < ApplicationController
+  include HTTParty
+  include JSON
 
 # get request:
 #http://localhost:3000/company_details/company name
 # use '%20' for spaces
-
-
   def company_details
-    company = Company.fuzzy_search(name: params[:company.upcase])
+    upc_data = process_upc()
+    company_name = upc_data[0]
+    product_img_url = upc_data[1]
 
+    company = Company.fuzzy_search(company_name)
     if company == []
-      company = Subsidiary.fuzzy_search(name: params[:company].upcase)
+      company = Subsidiary.fuzzy_search(company)
       company == [] ? company = nil : company = company[0].company
     else
       company = company[0]
@@ -18,14 +21,15 @@ class CompanyController < ApplicationController
     if company
       render json: {
         company_name: company.name,
-        lobbying_dollars: get_USD(company.lobbying_dollars),
-        contribution_dollars: get_USD(company.contribution_dollars),
+        lobbying_dollars: Money.new(company.lobbying_dollars*100, "USD").format,
+        contribution_dollars: Money.new(company.contribution_dollars*100, "USD").format,
         company_share_holders: company.share_holders,
         most_lobbied_bill: company.most_lobbied_bill.name,
         mlb_description: company.most_lobbied_bill.description,
         top_recipients: company.top_recipients,
         subsidiaries: company.subsidiaries,
         opensecretid: company.open_secret_id,
+        product_url: product_img_url
       },
       status: :ok
     else
@@ -35,30 +39,22 @@ class CompanyController < ApplicationController
   end
 
   private
+
   def company_params
-     params.require(:company).permit(:name, :id)
+     params.require(:upc).permit(:upc)
   end
 
-  # only works for positive integers without decimals
-  def get_USD (num_string)
-    if num_string == nil || num_string.to_i == 0
-      return num_string
+  def process_upc
+    base = "https://eandata.com/feed/?v=3&keycode="
+
+    response = HTTParty.get(base + ENV["UPC_API_KEY"] + "&mode=json&find=" + params[:upc])
+    if response["company"]["name"]
+      data = [
+        response["company"]["name"], response["product"]["image"]
+      ]
+      return data
     end
-
-    num_string = num_string.to_s.split("")
-
-    usd = ["$"]
-
-    num_string.each_with_index do |num, index|
-      if index == ((num_string.length) -1)
-        usd << "#{num}.00"
-      elsif index != 0 && index % 3 == 0
-        usd << ",#{num}"
-      else
-        usd << num.to_s
-      end
-    end
-    return usd.join("")
+    return nil
   end
 
 end

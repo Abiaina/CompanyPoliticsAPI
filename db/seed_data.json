@@ -1027,5 +1027,33 @@
     ],
     "total_contribution_dollars": "890444",
     "total_lobby_dollars": "3930000"
+},
+{
+    "most_lobbied_bill": "",
+    "mlb_description": "",
+    "name": "Hershey Co",
+    "os_id": "D000026470",
+    "recipients": [
+      "Hartman, Christina",
+      "Kaine, Tim",
+      "Democratic Senatorial Campaign Cmte",    "McCarthy, Kevin",
+      "Pries, Mike",
+      "Roberts, Pat",
+      "Casey, Bob",
+      "Bustos, Cheri",
+      "Making America Prosperous",
+      "Peterson, Collin",
+      "Smucker, Lloyd"
+    ],
+    "share_holder_politicians": [
+      "Collins, Susan M (R-ME)",
+      "Frankel, Lois J (D-FL)",
+      "Gibbs, Bob (R-OH)",
+      "Marchant, Kenny (R-TX)",
+      "McKinley, David (R-WV)"
+    ],
+    "subsidiaries": [],
+    "total_contribution_dollars": "37813",
+    "total_lobby_dollars": "320000"
 }
 ]
