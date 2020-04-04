@@ -14,6 +14,6 @@ def home():
 def api_get_politics():
     return "<h1>Product Politics API</h1>"
 
-app.run()
+app.run(host='0.0.0.0')
 
 
