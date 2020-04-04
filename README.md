@@ -14,3 +14,6 @@ Reconfigured API to use Python3 and containerized it using Docker on 4/4/2020.
 1. docker run -p 5000:5000 -i <name of image created above>
 1. Visit API's Homepage on `http://0.0.0.0:5000/` .
 1. Post to API for political data, run `curl -X POST "http://0.0.0.0:5000/api/v2/get_politics"`
+
+## Configurations, Keys and Environment
+Get API keys and store them as environment variables.
