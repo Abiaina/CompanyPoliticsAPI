@@ -10,21 +10,23 @@ class BarcodeCompany:
     
     def _get_barcode_company_data (self):
         # TODO: Make Barcode to Company API call.
+        self._process_upc
         return
-         
-def process_upc ():
-  r = requests.get( + barcode)
-  r.status_code
-  r.json()
-  return
-  # if response["company"].nil? :
-  #   response = HTTParty.get(base2 + params[:upc])
-  #   data = [response["items"][0]["brand"], response["items"][0]["images"]]
-  # else
-  #   data = [
-  #     response["company"]["name"], response["product"]["image"]
-  #   ]
-  
-  # return data
-
-print(config.OS_API_KEY)
+        
+    # Should this be recursive instead?
+    # TODO: Figure out what to return and if to send any error messages.   
+    def _process_upc (self):
+      r = requests.get(config.EANDATA_BARCODE_API_ENDPOINT + self.barcode)
+      if r.status_code == 200:
+        data = r.json()
+        if len(data["items"]) > 0:
+          print(data["items"][0]["brand"])
+          return
+      r = requests.get(config.UPCITEMDB_BARCODE_API_ENDPOINT + self.barcode)
+      if r.status_code == 200:
+          data = r.json()
+          if len(data["items"]) > 0:
+            print(data["items"][0]["brand"])
+            return
+      print("No matches for barcode")
+      return
