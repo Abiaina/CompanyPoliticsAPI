@@ -16,4 +16,14 @@ Reconfigured API to use Python3 and containerized it using Docker on 4/4/2020.
 1. Post to API for political data, run `curl -X POST "http://0.0.0.0:5000/api/v2/get_politics"`
 
 ## Configurations, Keys and Environment
-Get API keys and store them as environment variables.
+Get API keys and store them as environment variables. The config file expects OSKEY for Open Secrets API Key.
+
+# Data Sources
+## Company Financial Political Data Source
+### Open Secrets Api
+
+Open Secrets API provided the financial-political actions of any large corporations. Reach out to apis@crp.org directly or ask questions in the group: opensecrets-open-data@googlegroups.com. Learn more here: https://www.opensecrets.org/resources/datadictionary/UserGuide.pdf .
+
+## Company Barcode Data Source
+### EANdata API
+### UPC Lookup Database API
