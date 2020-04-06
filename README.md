@@ -1,7 +1,11 @@
 See https://github.com/Abiaina/PeoplePowerProductToPolitics/tree/master/ProductToPolitics
 
 
-Reconfigured API to use Python3 and containerized it using Docker on 4/4/2020.
+Last reconfigured API to use Python3 and containerized it using Docker on 4/5/2020.
+
+API that takes barcode numbers and returns the company that owns this product.
+
+Implemented with Python 3.7.4, Flask, and (external database)[data-sources].
 
 ## Run Locally
 1. `pip install -r requirements.txt`
