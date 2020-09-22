@@ -5,7 +5,12 @@ Last reconfigured API to use Python3 and containerized it using Docker on 4/5/20
 
 API that takes barcode numbers and returns the company that owns this product.
 
-Implemented with Python 3.7.4, Flask, and (external database)[data-sources].
+Implemented with Python 3.7.4, Flask, and [external database][data-sources) .
+
+## Example Usage - Product To Politics App
+Scan any product's barcode to learn about the political implications of your purchases.
+![Product To Politics App](P2P.gif)
+
 
 ## Run Locally
 1. `pip install -r requirements.txt`
